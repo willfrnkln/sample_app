@@ -1,0 +1,4 @@
+heroku rake db:drop
+heroku rake db:push
+heroku rake db:create
+heroku rake db:migrate
